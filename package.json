@@ -9,6 +9,7 @@
     "start-node": "node build/index.js",
     "dev": "ts-node-dev src/index.ts",
     "test": "yarn jest test --silent",
+    "test:ci": "yarn jest test --silent --maxWorkers=2 --forceExit",
     "build": "tsc -p .",
     "tsc": "tsc -p . --pretty --skipLibCheck --noEmit",
     "bootstrap": "git pull origin main && yarn install",
