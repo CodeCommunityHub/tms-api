@@ -64,6 +64,7 @@
     "sequelize-cli": "^6.5.2",
     "sequelize-typescript": "^2.1.6",
     "socket.io": "^4.5.4",
+    "sqlite3": "^5.1.7",
     "uuid": "^9.0.1"
   }
 }
