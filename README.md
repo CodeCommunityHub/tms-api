@@ -2,6 +2,16 @@
 
 ### Training Management Software API (TypeScript)
 
+The Training Management System (TMS) is designed to manage student enrollment to courses, facilitate the final examination process, and handle certificate issuance. This is a free and open-source project that everyone can use.
+
+TMS,includes:
+
+- Student Management
+- Instructor/Lecture Management
+- Exam Management
+- Courses Management
+- Syllabus Management
+
 ## Technology used
 
 - Node
