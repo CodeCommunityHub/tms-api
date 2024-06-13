@@ -14,7 +14,8 @@
     "tsc": "tsc -p . --pretty --skipLibCheck --noEmit",
     "bootstrap": "git pull origin main && yarn install",
     "lint": "eslint --fix ./src/**/*.ts",
-    "format": "yarn prettier -w ./src/** --loglevel silent"
+    "format": "yarn prettier -w ./src/** --loglevel silent",
+    "prepare": "husky"
   },
   "husky": {
     "hooks": {
