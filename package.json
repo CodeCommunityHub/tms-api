@@ -61,7 +61,7 @@
     "morgan": "^1.10.0",
     "mysql2": "^3.11.3",
     "reflect-metadata": "^0.2.2",
-    "sequelize": "^6.37.3",
+    "sequelize": "^6.37.5",
     "sequelize-cli": "^6.5.2",
     "sequelize-typescript": "^2.1.6",
     "socket.io": "^4.8.0",
