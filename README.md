@@ -29,6 +29,20 @@ yarn install
 
 yarn dev
 
+## Automation
+
+This repository includes automated pull request labeling. Pull requests are automatically labeled based on the files changed:
+
+- `documentation` - Changes to README, docs, or markdown files
+- `code` - Changes to source code files
+- `tests` - Changes to test files
+- `config` - Changes to configuration files
+- `dependencies` - Changes to package.json or yarn.lock
+- `typescript` - Changes to TypeScript files
+- `database` - Changes to database-related files
+- `api` - Changes to API routes and middleware
+- `build` - Changes to build tools and configurations
+
 ## .ENV
 
     APP_NAME
