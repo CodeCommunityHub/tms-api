@@ -1,0 +1,52 @@
+# Configuration for the pull request labeler
+# https://github.com/actions/labeler
+
+# Documentation related changes
+documentation:
+  - changed-files:
+      - any-glob-to-any-file: ["**/*.md", "docs/**/*"]
+
+# Source code changes
+code:
+  - changed-files:
+      - any-glob-to-any-file: ["src/**/*"]
+
+# Test related changes
+tests:
+  - changed-files:
+      - any-glob-to-any-file: ["**/*.spec.ts", "**/*.test.ts", "**/__tests__/**/*", "test/**/*"]
+
+# Configuration changes
+config:
+  - changed-files:
+      - any-glob-to-any-file: ["*.json", "*.yml", "*.yaml", "*.config.*", ".env*", "tsconfig.json", "jest.config.*"]
+
+# GitHub Actions workflow changes
+github-actions:
+  - changed-files:
+      - any-glob-to-any-file: [".github/workflows/**/*", ".github/actions/**/*"]
+
+# Dependencies changes
+dependencies:
+  - changed-files:
+      - any-glob-to-any-file: ["package.json", "yarn.lock", "package-lock.json"]
+
+# TypeScript specific changes
+typescript:
+  - changed-files:
+      - any-glob-to-any-file: ["**/*.ts", "**/*.tsx"]
+
+# Database related changes
+database:
+  - changed-files:
+      - any-glob-to-any-file: ["src/database/**/*", "src/models/**/*", "migrations/**/*", "seeders/**/*"]
+
+# API routes and middleware changes
+api:
+  - changed-files:
+      - any-glob-to-any-file: ["src/routes/**/*", "src/middlewares/**/*", "src/controllers/**/*"]
+
+# Build and tooling changes
+build:
+  - changed-files:
+      - any-glob-to-any-file: [".husky/**/*", ".eslintrc.*", ".prettierrc.*", "tsconfig.*", "webpack.*", "rollup.*"]
